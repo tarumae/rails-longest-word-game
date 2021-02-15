@@ -1,0 +1,20 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+span {
+  background-color: rgba($color: #34b5ff, $alpha: 1.0);
+  color: white;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 5px;
+  font-size: 26px;
+}
+
+.form {
+  margin: 30px 20px;
+  input {
+    border: 1px solid rgba(0,0,0,0.2);
+    height: 30px;
+  }
+}

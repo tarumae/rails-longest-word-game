@@ -1,0 +1,10 @@
+<h1>Result</h1>
+<% if @result[:customError] %>
+  <p>Sorry, but <strong><%= @answer %></strong> can't be built out of <strong><%= @letters.join.upcase %></strong></p>
+  <% elsif @result["found"] %>
+  <p><strong>Congratulations!</strong> <%= @answer %> is a valid English word!</p>
+  <% else %>
+  <p>Sorry, but <strong><%= @answer %></strong> does not seem to be a valid English word.</p>
+<% end %>
+
+<%= link_to "Play again", new_path  %>
